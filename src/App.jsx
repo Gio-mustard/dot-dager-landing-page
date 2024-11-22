@@ -1,33 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Home from "./pages/home/home"
+import "./app.css"
+import englishSite from "./englishsite.json"
+import spanishSite from "./spanishsite.json"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [site_on_english, setSiteOnEnglish] = useState(true);
+  const [textSite, setTextSite] = useState(site_on_english?englishSite:spanishSite);
+  useEffect(() => {
+    setTextSite(site_on_english?englishSite:spanishSite);
+  }, [site_on_english]);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <button onClick={() => setSiteOnEnglish(!site_on_english)} id='btn-change-language'>
+        {site_on_english ? 'Switch to Spanish' : 'Switch to English'}
+      </button>
+      <Home textSite={textSite}/>
+
     </>
   )
 }

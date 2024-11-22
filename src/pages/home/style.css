@@ -1,0 +1,68 @@
+#home-section{
+    background: linear-gradient(to bottom, #E9E3DE, #D2CAC8);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5svh;
+}
+#home-section > *{
+    z-index: 5;
+}
+h1{
+    text-shadow: 1px 1px 2px #88ff00 , -1px -1px 2px #0066ff;
+    font-size: 10svh;
+    text-align: right;
+    position: relative;
+}
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 5svh;
+    top: 18%;
+    right: 65%;
+    gap: 10%;
+}
+.dots > .dot-green{
+    min-width: 4svh;
+    min-height: 4svh;
+    background-color: #45B132;
+    border-radius: 100%;
+    animation: dot-green-animation 2s infinite;
+}
+
+@keyframes dot-green-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.dot-green.first{
+    min-width: 2svh;
+    min-height: 2svh;
+    background-color: #63E54C;
+}
+.dot-green.second{
+    min-width: 3svh;
+    min-height: 3svh;
+    background-color: #52CB3D;
+}
+.description-of-dot-dager{
+    color: #9C9795;
+    max-width: 50ch;
+    text-align: right;
+    background-color: #E9E3DE;
+    padding: .5svh;
+    border-radius: .4svh;
+
+}
+.media-buttons{
+    margin-top: 10svh;
+    display: flex;
+    gap: 3svw;
+    position: relative;
+}
+.media-buttons > .cat{
+    position: absolute;
+    top: -180%;
+}

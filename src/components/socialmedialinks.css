@@ -1,0 +1,38 @@
+.social-media-links{
+    display: flex;
+    gap: 4svw;
+    align-items: center;
+}
+.media-link  {
+    background-color: #fff;
+    padding: .8svh;
+    width: 4svh;
+    height: 4svh;
+    border-radius: .5svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.media-link > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.linkedin.has-shadow {
+    box-shadow: 0 4px 8px #2696FF; /* LinkedIn shadow */
+}
+
+.twitch.has-shadow {
+    box-shadow: 0 6px 12px #A02EF8; /* Twitch shadow */
+}
+
+.youtube.has-shadow {
+    box-shadow: 0 8px 16px #F82E32; /* YouTube shadow */
+}
+
+.github.has-shadow {
+    box-shadow: 0 2px 4px #7A24B2; /* GitHub shadow */
+}

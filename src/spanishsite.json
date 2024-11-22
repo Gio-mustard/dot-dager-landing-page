@@ -1,0 +1,10 @@
+{
+    "homepage":{
+        "simple-description":"Creador de Contenido\nEntusiasta del Pepino.",
+        "description":"Hola, soy Dot Dager, un creador de contenido y entusiasta del pepino. Me apasiona crear contenido que genere alegría e inspire a otros a unirse a la diversión. Con un amor por todas las cosas relacionadas con el pepino, estoy aquí para compartir mi pasión contigo. ¡Vamos a crear momentos llenos de pepino juntos!"
+    },
+    "buttons":{
+        "contanctme":"contactame",
+        "about me":"sobre mi"
+    }
+}

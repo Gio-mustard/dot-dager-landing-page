@@ -1,0 +1,21 @@
+#dotino {
+    z-index: 5;
+    position: absolute;
+    bottom: -100px;
+    left: 20px; 
+    border-radius: 50px;
+    transition: 1s;
+  }
+  
+  #dotino.hidden {
+    bottom: -200px;
+    rotate: -80deg;
+    left: -100%;
+}
+
+#dotino.show {
+    bottom: -100px;
+    rotate: 0deg;
+    left: 20px;
+}
+  
