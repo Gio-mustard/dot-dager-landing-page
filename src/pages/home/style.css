@@ -52,17 +52,23 @@ h1{
     max-width: 50ch;
     text-align: right;
     background-color: #E9E3DE;
-    padding: .5svh;
+    padding: 1svh;
     border-radius: .4svh;
+    text-wrap: pretty;
+    /* text-shadow: 1px 1px 2px #000, 0 0 25px #000, 0 0 5px #000; */
 
 }
 .media-buttons{
     margin-top: 10svh;
     display: flex;
     gap: 3svw;
-    position: relative;
+    position: absolute;
+    bottom: 2svh;
+    z-index: 5;
 }
 .media-buttons > .cat{
     position: absolute;
-    top: -180%;
+    bottom:0 ;
+    left: -10svh;
+    z-index: -1;
 }
