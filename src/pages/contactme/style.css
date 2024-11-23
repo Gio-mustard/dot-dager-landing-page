@@ -1,0 +1,116 @@
+#contact-me{
+    padding: 0;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    text-transform: capitalize ;
+    /* margin-top: 20svh; */
+}
+#contact-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: blur(20px) saturate(2);
+    z-index: 1;
+}
+#contact-container{
+    z-index: 10;
+    display: flex;
+    gap: 5svh;
+}
+#contact-info{
+    display: flex;
+    gap: 2svh;
+    min-height: 40svh;
+    width: 40svh;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+#contact-info hr{
+    border-color: #9A9292;
+}
+#contact-info > h3{
+    color: #fff;
+    letter-spacing: 1svh;
+    text-align: center;
+    width: 100%;
+    font-size: 4svh;
+}
+#contact-paragraph{
+    width: 100%;
+    text-wrap: balance;
+    color: #ffffffc2;
+    text-transform: none;
+}
+#contact-container  .social-media-links{
+    justify-content: space-between;
+}
+#avatar{
+    border-radius: 1svh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+#chistecito{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1svh;
+    color: #fff;
+    z-index: 5;
+    font-weight: bold;
+    opacity: .5;
+    letter-spacing: .5svh;
+    font-size: 1svh;
+}
+#email-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 1svh;
+}
+#email-container > p{
+    color: #d0d1ff;
+    position: relative;
+    top: -.5svh;
+    text-transform: lowercase;
+}
+
+/* extra info */
+#extra-information{
+    height: 15svh;
+    background-color: #fff;
+    /* box-shadow: inset 0 0 2svh #1a1a1a70; */
+    background-image: url("/public/images/notes.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    opacity: .2;
+    margin: 5svh 0;
+}
+@media only screen and (max-width: 768px) {
+  /* mobile styles go here */
+  #avatar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    left: 0;
+    object-fit:cover;
+    height: 33svh;
+    box-shadow: none;
+
+  }
+  #contact-info > h3{
+    text-shadow: 1px 1px 2px #000, 0 0 25px #000, 0 0 5px #000;
+
+  }
+  
+}
+
