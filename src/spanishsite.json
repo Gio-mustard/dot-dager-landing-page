@@ -7,22 +7,22 @@
         "categories": [
             {
                 "title": "Filosofía",
-                "icon": "/public/images/filosofia-humana.jpg",
+                "icon": "/images/filosofia-humana.jpg",
                 "content": "Creo firmemente en aprender continuamente y compartir conocimiento. Mi enfoque se centra en crear contenido auténtico que inspire a otros a explorar su potencial y reflexionar sobre las grandes preguntas de la vida."
             },
             {
                 "title": "Programación",
-                "icon": "/public/images/lenguaje-programacion.jpg",
+                "icon": "/images/lenguaje-programacion.jpg",
                 "content": "Como desarrollador Full Stack, combino creatividad y tecnología para resolver problemas reales. He trabajado en proyectos que van desde aplicaciones web dinámicas hasta soluciones personalizadas para empresas."
             },
             {
                 "title": "Gatos",
-                "icon": "/public/images/gatos.jpg",
+                "icon": "/images/gatos.jpg",
                 "content": "Los gatos no solo son mis compañeros, también son mi inspiración. Siempre encuentran formas creativas de resolver sus 'problemas', algo que trato de emular en mi trabajo diario."
             },
             {
                 "title": "Música",
-                "icon": "/public/images/musica.png",
+                "icon": "/images/musica.png",
                 "content": "La música es mi forma de expresión más personal. Toco la guitarra y encuentro en ella una conexión única entre creatividad y disciplina, algo que también aplico al desarrollo y a la creación de contenido."
             }
         ],

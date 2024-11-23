@@ -49,14 +49,14 @@ const Home = ({textSite})=>{
             </Paragraph>
             
             <div className="media-buttons">
-                <img src="/public/images/cat.png" alt="" className="cat"/>
+                <img src="/images/cat.png" alt="" className="cat"/>
                 <a  className="button" href='#contact-me' onClick={(e)=>handleSmoothScroll(e,"contact-me")}>
                     <span>
                         {
                             textSite.buttons.contanctme
                         }
                     </span>
-                    <img src="/public/icons/right row.png" />
+                    <img src="/icons/right row.png" />
                 </a>
                 
                     <a href="#aboutMe" className="button blue" onClick={(e)=>handleSmoothScroll(e,"aboutMe")}>
@@ -65,7 +65,7 @@ const Home = ({textSite})=>{
                                 textSite.buttons['about me']
                             }
                         </span>
-                        <img src="/public/icons/right row.png" />
+                        <img src="/icons/right row.png" />
                     </a>
                 
             </div>

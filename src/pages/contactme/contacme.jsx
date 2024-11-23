@@ -165,9 +165,9 @@ const Email = () => {
 const ContactMe = ({textSite}) => {
     return (
         <section id="contact-me">
-            <img src="/public/images/fondo.jpg" id="contact-background"/>
+            <img src="/images/fondo.jpg" id="contact-background"/>
             <div id="contact-container">
-                <img src="/public/images/avatar.png" id="avatar" />
+                <img src="/images/avatar.png" id="avatar" />
                 <div id="contact-info">
                     <h3>{textSite.contactme.title}</h3>
                     <Paragraph id="contact-paragraph">

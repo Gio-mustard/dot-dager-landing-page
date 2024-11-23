@@ -14,7 +14,7 @@ const Dotino = ({delaySeconds = 1}) => {
     }, [delaySeconds]);
     return (
         <img 
-            src="/public/images/pepino.png" 
+            src="/images/pepino.png" 
             id="dotino"
             className={`dotino ${visible ? "show" : "hidden"}`}
             />

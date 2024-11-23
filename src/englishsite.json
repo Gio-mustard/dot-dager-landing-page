@@ -7,22 +7,22 @@
         "categories": [
             {
                 "title": "Philosophy",
-                "icon": "/public/images/filosofia-humana.jpg",
+                "icon": "/images/filosofia-humana.jpg",
                 "content": "I believe in constantly learning and sharing knowledge. My approach focuses on creating authentic content that inspires others to explore their potential and reflect on life's big questions."
             },
             {
                 "title": "Programming",
-                "icon": "/public/images/lenguaje-programacion.jpg",
+                "icon": "/images/lenguaje-programacion.jpg",
                 "content": "I'm passionate about programming and always eager to improve my skills in this field. I love exploring new technologies and finding innovative ways to solve problems."
             },
             {
                 "title": "Cats",
-                "icon": "/public/images/gatos.jpg",
+                "icon": "/images/gatos.jpg",
                 "content": "I'm a cat lover who enjoys sharing my affection for them. Their curious nature often inspires creativity in my work and everyday life."
             },
             {
                 "title": "Music",
-                "icon": "/public/images/musica.png",
+                "icon": "/images/musica.png",
                 "content": "Music is the soundtrack to my creativity. I enjoy experimenting with different melodies and instruments to inspire my content creation and reflect my personality."
             }
         ],

@@ -51,7 +51,7 @@ const AboutMe = ({textSite})=>{
                             selected={currentCardIndex == 0}
                             onClick={()=>handleClickCard(0)}
                             currentCover={currentCard.icon}
-                            icon="/public/icons/jinjan.png"
+                            icon="/icons/jinjan.png"
                             title={cards[0].title}
                         />
                         <hr />
@@ -59,7 +59,7 @@ const AboutMe = ({textSite})=>{
                             selected={currentCardIndex == 1}
                             onClick={()=>handleClickCard(1)}
                             currentCover={currentCard.icon}
-                            icon={"/public/icons/code.png"}
+                            icon={"/icons/code.png"}
                             title={cards[1].title}
                         ></CardPanel>
                         <hr />
@@ -67,7 +67,7 @@ const AboutMe = ({textSite})=>{
                             selected={currentCardIndex == 2}
                             onClick={()=>handleClickCard(2)}
                             currentCover={currentCard.icon} 
-                            icon={"/public/icons/cat.png"}
+                            icon={"/icons/cat.png"}
                             title={cards[2].title}
                         >
 
@@ -77,7 +77,7 @@ const AboutMe = ({textSite})=>{
                             selected={currentCardIndex == 3}
                             onClick={()=>handleClickCard(3)}
                             currentCover={currentCard.icon} 
-                            icon={"/public/icons/guitar.png"}
+                            icon={"/icons/guitar.png"}
                             title={cards[3].title}
                         >
 
