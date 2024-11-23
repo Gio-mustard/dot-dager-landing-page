@@ -55,3 +55,30 @@ section{
     bottom: 0;
     right: 0;
 }
+footer{
+    height: 5svh;
+    padding: 1svh;
+    background-color:#000000;
+    z-index: 100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1svh;
+}
+footer > h6{
+    color: inherit;
+    opacity: .8;
+}
+footer > a{
+    color: inherit;
+    background-color: #fff;
+    padding: .1svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius:2svh;
+}
+footer > a > img{
+    height: 100%;
+}

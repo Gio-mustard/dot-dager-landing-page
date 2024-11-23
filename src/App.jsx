@@ -33,6 +33,12 @@ function App() {
       <AboutMe textSite={textSite}/>
       <div id='extra-information'/>
       <ContactMe textSite={textSite}/>
+      <footer>
+        <a href="https://github.com/Gio-mustard" target='_black'>
+          <img src="/icons/github.png"/>
+        </a>
+        <h6>Morquecho Soto Sergio Manuel</h6>
+      </footer>
     </>
   )
 }

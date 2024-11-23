@@ -148,7 +148,7 @@ const StyledWrapper = styled.div`
 }`;
 
 const Email = () => {
-    const email = "sergiomorquecho2@gmail.com"
+    const email = "portafoliosdesarrollador@gmail.com"
     return (
         <div id="email-container">
             <p id="email-text">{email}</p>
