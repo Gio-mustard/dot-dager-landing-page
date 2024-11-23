@@ -1,0 +1,8 @@
+.p-container{
+    height: fit-content;
+    width: fit-content;
+    opacity: 1;
+}
+.p-container.in-transition{
+    opacity: 0;
+}

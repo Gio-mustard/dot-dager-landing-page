@@ -1,6 +1,6 @@
 .social-media-links{
     display: flex;
-    gap: 4svw;
+    gap: 1svw;
     align-items: center;
 }
 .media-link  {
@@ -8,6 +8,7 @@
     padding: .8svh;
     width: 4svh;
     height: 4svh;
+    min-width: 4svh;
     border-radius: .5svh;
     display: flex;
     justify-content: center;
@@ -22,17 +23,20 @@
 }
 
 .linkedin.has-shadow {
-    box-shadow: 0 4px 8px #2696FF; /* LinkedIn shadow */
+    box-shadow: 0 4px 8px #2696FF;
 }
 
 .twitch.has-shadow {
-    box-shadow: 0 6px 12px #A02EF8; /* Twitch shadow */
+    box-shadow: 0 4px 8px #c98df7;
 }
 
 .youtube.has-shadow {
-    box-shadow: 0 8px 16px #F82E32; /* YouTube shadow */
+    box-shadow: 0 4px 8px #F82E32;
 }
 
 .github.has-shadow {
-    box-shadow: 0 2px 4px #7A24B2; /* GitHub shadow */
+    box-shadow: 0 4px 8px #684aff;
+}
+.discord.has-shadow {
+    box-shadow: 0 4px 8px #5865F2;
 }

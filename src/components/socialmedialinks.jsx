@@ -16,7 +16,9 @@ const SocialMediaLinks = ({hasShadow=false})=>{
             <a className={`${media_link_class} github`} href="https://github.com/MarianoVilla" target="_blank">
                 <img src="/public/icons/github.png"/>
             </a>
-            
+            <a className={`${media_link_class} discord`} href="https://discord.gg/4NFk6TamAB" target="_blank">
+                <img src="/public/icons/discord.png"/>
+            </a>
             
             
         </div>
