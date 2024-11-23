@@ -1,0 +1,204 @@
+#aboutMe{
+    display: flex;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 80svh;
+    min-height: 80svh !important;
+    margin-top: 20svh;
+    position: relative;
+    padding: 2svh;
+}
+#aboutMe  hr{
+    width: 100%;
+    border-color: #1a1a1a68;
+}
+.backgorundAboutMe{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: saturate(3) blur(50px);
+    opacity: .4;
+    bottom: 0;
+}
+#imgAboutMe{
+    max-width: 30%;
+    z-index: 10;
+    object-fit: cover;
+    min-height: 100%;
+    object-position: center;
+    border-radius: 1svh;
+}
+#aboutMe-information{
+    min-width: 70%;
+    min-height: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 2svh;
+}
+#aboutMe-title{
+    text-align: center;
+    letter-spacing: 2svh;
+    font-size: 5svh;
+    text-transform: capitalize;
+    text-wrap: balance;
+    font-family: sans-serif;
+}
+#information-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4%;
+    padding: 2%;
+}
+#information-container > *{
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2svh;
+}
+
+#control-panel{
+    gap: 1.5svh;
+}
+#control-panel > h3{
+    text-align: center;
+    letter-spacing: .5svh;
+    text-wrap: pretty;
+}
+#content-title{
+    font-family: cursive;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 1svh;
+    flex-direction: column;
+    width: 100%;
+}
+#content-title > b{
+    font: inherit;
+    opacity: .8;
+    text-wrap: balance;
+}
+#content-title > span{
+    font: inherit;
+    padding: .5svh 6svh;
+    background-color: #ffffffa3;
+    border-radius: .5svh;
+    box-shadow: inset 0 0 .5svh black;
+    min-height: 5svh;
+    width: fit-content;
+}
+
+.card-panel{
+    width: 100%;
+    /* background-color: #b1ffd93c; */
+    height: 5svh;
+    border-radius: .5svh;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    transition: .3s;
+    position: relative;
+    overflow: hidden;
+}
+.card-panel.selected{
+    transform: translateY(-.5svh);
+    box-shadow: 0 1svh 1svh -.5svh #1a1a1a ;
+}
+.card-panel.selected > .backgorundAboutMe{
+    opacity: 1;
+}
+.card-panel > .backgorundAboutMe{
+    filter: none;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+    z-index: -1;
+    opacity: .3;
+    filter: blur(5px) saturate(3);
+}
+.card-panel > .icon{
+    background-color: #ffffff;
+    height: 100%;
+    width: 5svh;
+    display: flex;
+    padding: 1svh;
+    border-radius: inherit;
+    z-index: 5;
+}
+.card-panel > span{
+    font-weight: bold;
+    opacity: .7;
+    color: #fff;
+    text-shadow: 0 0 .8svh #1a1a1a;
+    text-transform: capitalize;
+    user-select: none;
+}
+.card-panel > .icon > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.card-panel:hover{
+    transform: translateY(-.5svh);
+}
+#content-paragraph{
+    font-size: 2.4svh;
+    font-weight: bold;
+    opacity: .8;
+    font-family: monospace;
+    text-align: left;
+    text-wrap: balance;
+    width: 100%;
+}
+#content > .p-container{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    /* mobile styles go here */
+    #imgAboutMe{
+      position: absolute;
+      top: 1svh;
+      left: 3%;
+      min-width: 94%;
+      object-position: center;
+      max-height: 20svh;
+      min-height:auto;
+    }
+    #information-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #aboutMe-title,#control-panel >h3{
+        color: #fff;
+        position: relative;
+        top: 4svh;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #000, 0 0 5px #000;
+    }
+    #control-panel{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    #control-panel >h3{
+        grid-column: 1/3;
+        top: 0;
+    }
+    #control-panel hr{
+        display: none;
+    }
+    button.copy{
+        scale: .7;
+    }
+    
+  }
+  
