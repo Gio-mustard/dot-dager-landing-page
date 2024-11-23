@@ -46,7 +46,7 @@ const AboutMe = ({textSite})=>{
                 <h2 id="aboutMe-title" >{textSite.aboutme.title}</h2>
                 <div id="information-container">
                     <div id="control-panel">
-                        <h3>Mis intereses</h3>
+                        <h3>{textSite.aboutme.sidetitle}</h3>
                         <CardPanel
                             selected={currentCardIndex == 0}
                             onClick={()=>handleClickCard(0)}

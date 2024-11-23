@@ -27,7 +27,8 @@
             }
         ],
         "title": "About Me",
-        "subtitle": "What drives my passion?"
+        "subtitle": "What drives my passion?",
+        "sidetitle":"My Interests"
     },
     "contactme": {
         "title": "Contact Me",

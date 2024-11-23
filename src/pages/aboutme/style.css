@@ -71,7 +71,6 @@
     text-wrap: pretty;
 }
 #content-title{
-    font-family: cursive;
     align-self: flex-start;
     display: flex;
     justify-content: center;   
