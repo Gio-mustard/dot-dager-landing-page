@@ -1,10 +1,40 @@
 {
-    "homepage":{
-        "simple-description":"Content Creator\nPickle enthusiaist.",
-        "description":"Hi, I'm Dot Dager, a content creator and pickle enthusiast. I'm passionate about creating content that sparks joy and inspires others to join the fun. With a love for all things pickle-related, I'm here to share my passion with you. Let's make some pickle-filled moments together!"
+    "homepage": {
+        "simple-description": "Content Creator\nCucumber Enthusiast.",
+        "description": "Hi, I'm Dot Dager, a content creator and a cucumber enthusiast. I love creating content that brings joy and inspires others to join the fun. With a passion for everything cucumber-related, I'm here to share my enthusiasm with you. Let's create memorable moments together!"
     },
-    "buttons":{
-        "contanctme":"contact me",
-        "about me":"about me"
+    "aboutme": {
+        "categories": [
+            {
+                "title": "Philosophy",
+                "icon": "/public/images/filosofia-humana.jpg",
+                "content": "I believe in constantly learning and sharing knowledge. My approach focuses on creating authentic content that inspires others to explore their potential and reflect on life's big questions."
+            },
+            {
+                "title": "Programming",
+                "icon": "/public/images/lenguaje-programacion.jpg",
+                "content": "I'm passionate about programming and always eager to improve my skills in this field. I love exploring new technologies and finding innovative ways to solve problems."
+            },
+            {
+                "title": "Cats",
+                "icon": "/public/images/gatos.jpg",
+                "content": "I'm a cat lover who enjoys sharing my affection for them. Their curious nature often inspires creativity in my work and everyday life."
+            },
+            {
+                "title": "Music",
+                "icon": "/public/images/musica.png",
+                "content": "Music is the soundtrack to my creativity. I enjoy experimenting with different melodies and instruments to inspire my content creation and reflect my personality."
+            }
+        ],
+        "title": "About Me",
+        "subtitle": "What drives my passion?"
+    },
+    "contactme": {
+        "title": "Contact Me",
+        "message": "You can reach me on my social media or via email. I'm open to collaboration proposals or any questions you might have. I look forward to connecting with you!"
+    },
+    "buttons": {
+        "contanctme": "Contact Me",
+        "about me": "About Me"
     }
 }

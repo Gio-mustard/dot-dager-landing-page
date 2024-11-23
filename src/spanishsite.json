@@ -1,10 +1,40 @@
 {
-    "homepage":{
-        "simple-description":"Creador de Contenido\nEntusiasta del Pepino.",
-        "description":"Hola, soy Dot Dager, un creador de contenido y entusiasta del pepino. Me apasiona crear contenido que genere alegría e inspire a otros a unirse a la diversión. Con un amor por todas las cosas relacionadas con el pepino, estoy aquí para compartir mi pasión contigo. ¡Vamos a crear momentos llenos de pepino juntos!"
+    "homepage": {
+        "simple-description": "Creador de contenido.\nApasionado por la programación.\nAmante del pepino",
+        "description": "Hola, soy Dot Dager, un programador y creador de contenido con más de 8 años de experiencia en desarrollo Full Stack. Amo resolver problemas mediante la tecnología, tocar la guitarra, disfrutar de la compañía de mis gatos y reflexionar sobre filosofía. En esta página encontrarás un poco de mi mundo: creatividad, código, y pasión por lo que hago."
     },
-    "buttons":{
-        "contanctme":"contactame",
-        "about me":"sobre mi"
+    "aboutme": {
+        "categories": [
+            {
+                "title": "Filosofía",
+                "icon": "/public/images/filosofia-humana.jpg",
+                "content": "Creo firmemente en aprender continuamente y compartir conocimiento. Mi enfoque se centra en crear contenido auténtico que inspire a otros a explorar su potencial y reflexionar sobre las grandes preguntas de la vida."
+            },
+            {
+                "title": "Programación",
+                "icon": "/public/images/lenguaje-programacion.jpg",
+                "content": "Como desarrollador Full Stack, combino creatividad y tecnología para resolver problemas reales. He trabajado en proyectos que van desde aplicaciones web dinámicas hasta soluciones personalizadas para empresas."
+            },
+            {
+                "title": "Gatos",
+                "icon": "/public/images/gatos.jpg",
+                "content": "Los gatos no solo son mis compañeros, también son mi inspiración. Siempre encuentran formas creativas de resolver sus 'problemas', algo que trato de emular en mi trabajo diario."
+            },
+            {
+                "title": "Música",
+                "icon": "/public/images/musica.png",
+                "content": "La música es mi forma de expresión más personal. Toco la guitarra y encuentro en ella una conexión única entre creatividad y disciplina, algo que también aplico al desarrollo y a la creación de contenido."
+            }
+        ],
+        "title": "Sobre mí",
+        "subtitle": "Lo que me apasiona de: "
+    },
+    "contactme": {
+        "title": "Contáctame",
+        "message": "Si quieres colaborar, discutir ideas o simplemente saludar, no dudes en escribirme a través de mis redes sociales o por correo electrónico. Estoy siempre abierto a mandarte a la poronga :]"
+    },
+    "buttons": {
+        "contanctme": "Contáctame",
+        "about me": "Sobre mí"
     }
 }
