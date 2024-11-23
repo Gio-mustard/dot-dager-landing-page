@@ -8,6 +8,7 @@
 body{
     font-size: 2svh;
     min-width: 100svw;
+    max-width: 100svw;
     min-height: 100svh;
     overflow-x: hidden;
 }
@@ -20,7 +21,7 @@ section{
     min-height: 100svh;
     padding: 2svh 4svh;
 }
-button{
+.button{
     padding: .5svh 1.5svh;
     border-radius: .5svh;
     background: linear-gradient(to right, #5FC872, #6CD37A);
@@ -33,17 +34,18 @@ button{
     justify-content: space-around;
     gap: 1svw;
 }
-button.blue{
+
+.button.blue{
     background: linear-gradient(to right, #5fa0c8, #6c93d3);
 }
-button > span{
+.button > span{
     font: inherit;
     color: inherit;
 }
-button:hover{
+.button:hover{
     opacity: .7;
 }
-button:active{
+.button:active{
     filter: saturate(2);
 }
 #btn-change-language{
