@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Home from "./pages/home/home"
-import "./app.css"
+import "/public/app.css"
 import englishSite from "./englishsite.json"
 import spanishSite from "./spanishsite.json"
 import AboutMe from './pages/aboutme/aboutme';
